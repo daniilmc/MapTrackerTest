@@ -34,6 +34,7 @@ const Markers = ({ trackerPositions }) => {
             latitude: position.Position[1],
             time: position.SampleTime.toISOString(),
           })} color={tokens.colors.brand.primary[60]} />
+           
         </Marker>
       ))}
     </>);
